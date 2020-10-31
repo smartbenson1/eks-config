@@ -1,4 +1,5 @@
-piVersion: helm.fluxcd.io/v1
+---
+apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: mywebserver
@@ -45,4 +46,3 @@ spec:
       periodSeconds: 5
     metrics:
       enabled: false
-
